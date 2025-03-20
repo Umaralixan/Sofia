@@ -1,0 +1,52 @@
+.footer {
+  width: 100%;
+  height: 430px;
+  background-color: #2e2124;
+  margin-top: 150px;
+  padding-top: 90px;
+.footer__top{
+    display: flex;
+    justify-content: space-around;
+}
+  .foter__img {
+    width: 110px;
+    height: 40px;
+    margin-top: 20px;
+  }
+  .foter__logo{
+    width: 170px;
+    height: 170px;
+    object-fit: cover;
+  }
+  .foter__title {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 500;
+    color: #fff;
+  }
+  .foter__link {
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    margin-top: 15px;
+  }
+  .foter__tilifon {
+    font-size: 32px;
+    font-weight: 700;
+    color: #fff;
+  }
+  .hr{
+    width: 100%;
+    height: 1px;
+    background-color: #fff;
+ 
+  }
+  .footer__bottom{
+    margin-top: 50px;
+    .foter__div{
+        display: flex;
+        justify-content:space-around;
+        gap: 480px;
+    }
+  }
+}
